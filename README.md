@@ -2,6 +2,22 @@
 
 sets of Afrostream API for golang
 
+# Install
+
+## Install golang
+
+you need golang 1.6
+you need to set your *$GOPATH* env var (assuming ~/go here.)
+
+## Install this library
+
+```
+cd $GOPATH/src
+mkdir -p $GOPATH/src/github.com/afrostream
+cd $GOPATH/src/github.com/afrostream
+git clone git@github.com:Afrostream/afrostream-go-lib.git
+```
+
 # API
 
 ## env
