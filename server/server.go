@@ -39,7 +39,7 @@ func (server *Server) Spawn(port uint16) error {
 func New() *Server {
 	var server *Server
 
-	log.Log(log.INFO, "lalala")
-	server.Engine = gin.Default()
-	return new(Server)
+	server = new(Server)
+	server.Engine = gin.New()
+	return server
 }
